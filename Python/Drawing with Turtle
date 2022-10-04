@@ -1,0 +1,15 @@
+import turtle
+
+fred = turtle.Pen()
+fred.shape("turtle")
+fred.color("orange")
+fred.pencolor("black")
+fred.speed(0)
+
+fred.begin_fill()
+for i in range(200):
+	fred/corc;e(i * 3)
+	fred.left(90)
+fred.end_fill()
+
+turtle.done
